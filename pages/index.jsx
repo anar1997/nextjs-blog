@@ -1,0 +1,17 @@
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
+import Link from 'next/link';
+import Image from 'next/image';
+
+export default function Home() {
+  return (
+    <>
+      <Head>
+        <title>Create Next App</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
+      <h3>Anasayfa</h3>
+    </>
+  )
+}
